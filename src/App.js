@@ -755,6 +755,7 @@ const Home = () => {
                 whileInView="visible"
                 viewport={{ once: true, margin: "-100px" }}
                 variants={fadeInUp}
+                 onClick={() =>  window.open("https://drive.google.com/file/d/1tsm5UnPG48DxbrsWH4_qWNI3OBJS2b7O/view?usp=sharing")}
                 className="p-8 rounded-3xl bg-gradient-to-r from-amber-500/10 to-orange-500/10 border border-amber-500/20"
               >
                 <div className="flex items-center gap-4 justify-center">
